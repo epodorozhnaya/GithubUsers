@@ -20,7 +20,25 @@
 		357DADCB1E45B27B00DD5AE9 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DADC21E45989E00DD5AE9 /* SwiftyJSON.framework */; };
 		357DADCE1E47E53300DD5AE9 /* FollowersLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357DADCD1E47E53300DD5AE9 /* FollowersLoader.swift */; };
 		357DADD01E48E51300DD5AE9 /* MainLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357DADCF1E48E51300DD5AE9 /* MainLoader.swift */; };
+		357DADF31E4B745300DD5AE9 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 357DADBC1E45919200DD5AE9 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		357DADF41E4B745700DD5AE9 /* AlamofireImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 357DADB81E45915F00DD5AE9 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		357DADF51E4B745B00DD5AE9 /* SwiftyJSON.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 357DADC21E45989E00DD5AE9 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		357DADF21E4B742E00DD5AE9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				357DADF51E4B745B00DD5AE9 /* SwiftyJSON.framework in CopyFiles */,
+				357DADF41E4B745700DD5AE9 /* AlamofireImage.framework in CopyFiles */,
+				357DADF31E4B745300DD5AE9 /* Alamofire.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		351B97861E42808000EC60B6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -118,6 +136,7 @@
 				352157581E42538800A96EE7 /* Sources */,
 				352157591E42538800A96EE7 /* Frameworks */,
 				3521575A1E42538800A96EE7 /* Resources */,
+				357DADF21E4B742E00DD5AE9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
